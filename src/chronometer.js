@@ -12,7 +12,6 @@ class Chronometer {
       }
     }, 1000);
   }
-  
 
   getMinutes() {
     let minutes = Math.floor(this.currentTime/60);
